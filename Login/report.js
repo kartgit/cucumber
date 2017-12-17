@@ -43,3 +43,29 @@ formatter.step({
 formatter.match({
   "location": "loginstep.i_am_a_registered_user_on_the_web_page()"
 });
+formatter.result({
+  "duration": 54698420749,
+  "status": "passed"
+});
+formatter.match({
+  "location": "loginstep.i_understand_user_credentials()"
+});
+formatter.result({
+  "duration": 5245834619,
+  "status": "passed"
+});
+formatter.match({
+  "location": "loginstep.i_click_on_login()"
+});
+formatter.result({
+  "duration": 904325695,
+  "status": "passed"
+});
+formatter.match({
+  "location": "loginstep.i_should_get_access_to_the_Dashboard()"
+});
+formatter.result({
+  "duration": 9649391178,
+  "status": "passed"
+});
+});
